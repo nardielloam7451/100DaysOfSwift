@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showingAlert = false
     var body: some View {
-        VStack {
-            
+        Text("Hello World")
+            .padding()
+        
     }
 }
 
